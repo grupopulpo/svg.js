@@ -1407,7 +1407,7 @@ declare module "@svgdotjs/svg.js" {
     class ForeignObject extends Element {
         constructor(node?: SVGForeignObjectElement, attrs?: object)
         constructor(attrs?: object)
-        add(element: Dom, i?: number): ForeignObject
+        add(element: Dom, i?: number): this
     }
 
     // image.js
